@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 10px;
+}
+
+header {
+    border: 6px;
+    max-width: 37.5rem;
+    height: 6rem;
+    margin: auto;
+    padding: 0.1rem;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem;
+    justify-content: right;
+    color: black;
+    
+
+    
+}
+
+header h1{
+    font-size: 2.5rem;
+    margin-right: 20px;
+}
+
+.boton-repo {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: rgb(184, 159, 159);
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    font-size: 15px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 5px;}
